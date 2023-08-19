@@ -1,0 +1,14 @@
+input
+	{
+	N = 128
+	v = 3.92
+	h = 9.3
+	hc = 2.3285
+	tau = 1.0
+	truncE = 1E-10
+	maxDim = 64
+	alpha = 2.0
+	k = 8
+	dt = 0.1
+	tanhshift = 2.0
+	}

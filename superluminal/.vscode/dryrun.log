@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/root/1dising/expLR/superluminal'
+g++ -m64 -std=c++17 -fconcepts -fPIC -c -I. -I'/root/ising2d/itensor'  -O2 -DNDEBUG -Wall -Wno-unknown-pragmas -Wno-unused-variable -I/root/ising2d/TDVP -o superlumLR.o superlumLR.cc
+g++ -m64 -std=c++17 -fconcepts -fPIC -I. -I'/root/ising2d/itensor'  -O2 -DNDEBUG -Wall -Wno-unknown-pragmas -Wno-unused-variable -I/root/ising2d/TDVP superlumLR.o -o superlumLR -L'/root/ising2d/itensor/lib' -litensor -lpthread -L/usr/lib -lblas -llapack 
+make: Leaving directory '/root/1dising/expLR/superluminal'
+ 

@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/root/1dising/expLR/critical'
+g++ -m64 -std=c++17 -fconcepts -fPIC -c -I. -I'/root/ising2d/itensor'  -O2 -DNDEBUG -Wall -Wno-unknown-pragmas -Wno-unused-variable -o critLR.o critLR.cc
+g++ -m64 -std=c++17 -fconcepts -fPIC -I. -I'/root/ising2d/itensor'  -O2 -DNDEBUG -Wall -Wno-unknown-pragmas -Wno-unused-variable critLR.o -o critLR -L'/root/ising2d/itensor/lib' -litensor -lpthread -L/usr/lib -lblas -llapack 
+make: Leaving directory '/root/1dising/expLR/critical'
+ 
