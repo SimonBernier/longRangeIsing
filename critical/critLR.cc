@@ -1,3 +1,6 @@
+//
+// Copyright [2023] [Simon Bernier]
+//
 #include "itensor/all.h"
 #include "TFIsingLR.h"
 
