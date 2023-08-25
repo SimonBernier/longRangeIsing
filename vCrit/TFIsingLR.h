@@ -1,6 +1,5 @@
 //
-// Distributed under the ITensor Library License, Version 1.1.
-//    (See accompanying LICENSE file.)
+// Copyright [2023] [Simon Bernier]
 //
 #ifndef __ITENSOR_HAMS_TFISINGLR_H
 #define __ITENSOR_HAMS_TFISINGLR_H
